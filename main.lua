@@ -1304,8 +1304,11 @@ SConfig.BlacklistedVehicles = {
     "khanjali"
 }
 
-SConfig.WebHookDiscord = "" -- Sem si dej Amay svůj Discord webhook. Ale dej si pozor a nebanovat, protože ne vždy to ID a jméno musí být správné a korektní (netestoval jsem to) a ještě, 
---když někdo pojede třeba kolem vojenské základny, tak se to taky může vypsat, takže na to je třeba dát si pozor
+SConfig.WebHookDiscord = "" -- Here you can put your Discord webhook
+-- Blacklisted vehicles may be spawn when coming near for example army base
+-- The owner and owner ID may not be always 100% accure
+-- Not tested the accuracy of getting owner id
+-- Taken from this link: https://fivem-dev.cz/index.php?/topic/432-protekce-proti-spawnov%C3%A1n%C3%AD-objekt%C5%AF-a-vozidel-na-server-side/
 
 CONST_POPULATION_TYPE_MISSION = 7
 CONST_ENTITY_TYPE_OBJECT = 3
