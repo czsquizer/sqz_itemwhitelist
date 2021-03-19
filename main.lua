@@ -1379,3 +1379,29 @@ function DiscordWebhook(type, model, owner, id)
 
 
 end
+
+local BlockedExplosions = {
+    [1], 
+    [2], 
+    [4], 
+    [5], 
+    [25], 
+    [32], 
+    [33], 
+    [35], 
+    [36], 
+    [37], 
+    [38]
+}
+
+AddEventHandler(
+  "explosionEvent",
+  function(sender, ev)
+    if BlockedExplosions[ev.explosionType] then
+        CancelEvent()
+        -- Now you can ban the player
+        -- but make some more checks before banning him
+        return
+    end
+  end
+)
