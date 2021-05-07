@@ -1,6 +1,9 @@
 # SQZ_ITEMWHITELIST SCRIPT
 Script to prevent hackers spamming your server with random objects and vehicles. Made of https://fivem-dev.cz/index.php?/topic/432-protekce-proti-spawnov%C3%A1n%C3%AD-objekt%C5%AF-a-vozidel-na-server-side/. Feel free to ask any questions on Discord Squizer#3020
 
+__You can read the docs here__
+[![Docs](https://img.shields.io/badge/docs-passing-brightgreen)](https://docs.squizer.cz)
+
 __You can support me__
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=M4KV4Q9LDWEBC) 
 
