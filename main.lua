@@ -1381,17 +1381,17 @@ function DiscordWebhook(type, model, owner, id)
 end
 
 local BlockedExplosions = {
-    [1], 
-    [2], 
-    [4], 
-    [5], 
-    [25], 
-    [32], 
-    [33], 
-    [35], 
-    [36], 
-    [37], 
-    [38]
+    [1] = true, 
+    [2] = true, 
+    [4] = true, 
+    [5] = true, 
+    [25] = true, 
+    [32] = true, 
+    [33] = true, 
+    [35] = true, 
+    [36] = true, 
+    [37] = true, 
+    [38] = true
 }
 
 AddEventHandler(
